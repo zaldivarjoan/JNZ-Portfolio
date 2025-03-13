@@ -2,6 +2,9 @@
 import mathwork from "./company/mathwork.png";
 import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
+import test from "./company/test.png";
+import nasajpl from "./company/nasajpl.png";
+import fyiai from "./company/fyiai.png";
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -35,6 +38,7 @@ import close from "./close.svg";
 
 export {
   mathwork,
+  test,
   edunet,
   python,
   c,
@@ -59,4 +63,7 @@ export {
   menu,
   close,
   eduskill,
+  nasajpl,
+  fyiai,
+  
 };
