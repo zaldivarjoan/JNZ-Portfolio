@@ -20,10 +20,11 @@ import {
 	mathwork,
 	CompileVortex,
 	eduskill,
-  test,
-  nasajpl,
-  fyiai,
-  
+	test,
+	nasajpl,
+	fyiai,
+	cs,
+
 } from "../assets";
 
 export const navLinks = [
@@ -42,10 +43,10 @@ export const navLinks = [
 ];
 
 export const services = [
-	{ title: "C", icon: c },
-	{ title: "C++", icon: cpp },
-	{ title: "Python", icon: python },
 	{ title: "Java", icon: java },
+	{ title: "C++", icon: cpp },
+	{ title: "C#", icon: cs },
+	{ title: "Python", icon: python },
 ];
 
 export const technologies = [
@@ -60,7 +61,7 @@ export const technologies = [
 ];
 
 export const experiences = [
-  {
+	{
 		title: "• Student intern",
 		company_name: "JPL - Telescope Moontrek CSULA",
 		icon: test,
@@ -82,10 +83,10 @@ export const experiences = [
 		points: [
 			"Participated in Agile sprint planning and backlog refinement meetings to synchronize testing strategies with development goals. ",
 			"Executed comprehensive acceptance, regression, and smoke testing to ensure software quality and functionality across updates",
-      "Utilized tools like JIRA, Confluence, and Xcode for effective bug tracking, documentation, and crash log analysis. Developed and optimized test cases, enhancing product reliability and enabling early issue detection.",
+			"Utilized tools like JIRA, Confluence, and Xcode for effective bug tracking, documentation, and crash log analysis. Developed and optimized test cases, enhancing product reliability and enabling early issue detection.",
 		],
 	},
-	
+
 	// {
 	// 	title: "",
 	// 	company_name: "",
@@ -107,15 +108,15 @@ export const projects = [
 			"Developed a comprehensive web application with a Vue.js frontend integrated with a Web Assembly (WASM) library for Moon location detection. The backend was built using Node.js and deployed in a Docker container on Amazon Web Services (AWS) Elastic Compute Cloud (EC2). A MySQL database hosted in AWS Relational Database Service (RDS) was utilized to store image metadata including moon location geo-location timestamp instrument and make.",
 		tags: [
 			{ name: "Javascript", color: "blue-text-gradient" },
-      { name: "Vue.js", color: "green-text-gradient" },
-      { name: "Node.js", color: "pink-text-gradient" },
-      { name: "MySQL", color: "yellow-text-gradient" },
+			{ name: "Vue.js", color: "green-text-gradient" },
+			{ name: "Node.js", color: "pink-text-gradient" },
+			{ name: "MySQL", color: "yellow-text-gradient" },
 			{ name: "HTML", color: "green-text-gradient" },
 			{ name: "bootstrap 5.3.0", color: "pink-text-gradient" },
 			{ name: "Moon API by JPL", color: "yellow-text-gradient" },
-      { name: "AWS", color: "blue-text-gradient" },
-      { name: "Docker", color: "green-text-gradient" },
-      { name: "Web Assembly", color: "pink-text-gradient" },
+			{ name: "AWS", color: "blue-text-gradient" },
+			{ name: "Docker", color: "green-text-gradient" },
+			{ name: "Web Assembly", color: "pink-text-gradient" },
 		],
 		image: nasajpl,
 		source_code_link: "your-moon.space",
@@ -128,14 +129,13 @@ export const projects = [
 			{ name: "HTML", color: "blue-text-gradient" },
 			{ name: "css", color: "green-text-gradient" },
 			{ name: "Javascript", color: "pink-text-gradient" },
-      { name: "Vue.js", color: "yellow-text-gradient" },
-      { name: "Node.js", color: "blue-text-gradient" },
-      { name: "Python", color: "green-text-gradient" },
-      { name: "MongoDB", color: "pink-text-gradient" },
-      { name: "AWS", color: "yellow-text-gradient" },
-      { name: "Docker", color: "blue-text-gradient" },
-      { name: "Web Assembly", color: "green-text-gradient" },
-
+			{ name: "Vue.js", color: "yellow-text-gradient" },
+			{ name: "Node.js", color: "blue-text-gradient" },
+			{ name: "Python", color: "green-text-gradient" },
+			{ name: "MongoDB", color: "pink-text-gradient" },
+			{ name: "AWS", color: "yellow-text-gradient" },
+			{ name: "Docker", color: "blue-text-gradient" },
+			{ name: "Web Assembly", color: "green-text-gradient" },
 		],
 		image: nasajpl,
 		source_code_link: "https://github.com/zaldivarjoan/Moon-Trek-CSULA",
@@ -144,17 +144,16 @@ export const projects = [
 		name: "DigiKey API (Web Application)",
 		description:
 			"Developed a Command Line Interface (CLI) and an Express.js server application using JavaScript, Node.js, and MongoDB. Demonstrated skills in API integration, server-side programming, and database management. Created an api.js module to encapsulate DigiKey API interactions, including function exports for data searches and API token handling. Managed application dependencies and environment configurations using package. Json and .env files.",
-		tags: [{ name: "shell", color: "blue-text-gradient" },
-      { name: "JavaScript", color: "green-text-gradient" },
-      { name: "Node.js", color: "pink-text-gradient" },
-      { name: "MongoDB", color: "yellow-text-gradient" },
-      { name: "Express.js", color: "blue-text-gradient" },
-      { name: "API", color: "green-text-gradient" },
-      { name: "CLI", color: "pink-text-gradient" },
-      { name: "DigiKey API", color: "yellow-text-gradient" },
-
-
-    ],
+		tags: [
+			{ name: "shell", color: "blue-text-gradient" },
+			{ name: "JavaScript", color: "green-text-gradient" },
+			{ name: "Node.js", color: "pink-text-gradient" },
+			{ name: "MongoDB", color: "yellow-text-gradient" },
+			{ name: "Express.js", color: "blue-text-gradient" },
+			{ name: "API", color: "green-text-gradient" },
+			{ name: "CLI", color: "pink-text-gradient" },
+			{ name: "DigiKey API", color: "yellow-text-gradient" },
+		],
 
 		image: payloadmaster,
 		source_code_link: "https://github.com/zaldivarjoan/DigiKeyAPi-Project",
@@ -168,13 +167,12 @@ export const projects = [
 			{ name: "Javascript", color: "blue-text-gradient" },
 			{ name: "CSS", color: "green-text-gradient" },
 			{ name: "HTML", color: "pink-text-gradient" },
-      { name: "Java", color: "yellow-text-gradient" },
-      { name: "SQL", color: "blue-text-gradient" },
-      { name: "JDBC", color: "green-text-gradient" },
-      { name: "MVC", color: "pink-text-gradient" },
+			{ name: "Java", color: "yellow-text-gradient" },
+			{ name: "SQL", color: "blue-text-gradient" },
+			{ name: "JDBC", color: "green-text-gradient" },
+			{ name: "MVC", color: "pink-text-gradient" },
 		],
 		image: CompileVortex,
 		source_code_link: "https://github.com/zaldivarjoan/Articles_Website",
 	},
-	
 ];
