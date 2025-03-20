@@ -1,18 +1,28 @@
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { DRACOLoader } from "three/addons/loaders/DRACOLoader";
 import CanvasLoader from "../Loader";
+import { use } from "react";
+import { useRef } from "react";
 
 const ComputerModel = ({ isMobile }) => {
   const { scene } = useGLTF(
-    "./desktop_pc/scene.gltf",
+    "./custom_keyboard/scene.gltf",
     undefined,
     (loader) => {
       const dracoLoader = new DRACOLoader();
       loader.setDRACOLoader(dracoLoader);
     }
   );
+
+  const modelRef = useRef();
+
+  useFrame(() => {
+    if(modelRef.current) {
+      modelRef.current.rotation.y += 0.01;
+    }
+  });
 
   return (
     <mesh>
@@ -28,9 +38,9 @@ const ComputerModel = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 1999 : 1999}
+        position={isMobile ? [1, -3, -2.2] : [0, -0.9, 5.7]}
+        rotation={[0.9, 0, -0.1]}
       />
     </mesh>
   );

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Custom Keyboard
+* source:	https://sketchfab.com/3d-models/custom-keyboard-a848df4a6f9147e3b0dd03ddeb8a5c87
+* author:	Michael V (https://sketchfab.com/bossdeff)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Custom Keyboard" (https://sketchfab.com/3d-models/custom-keyboard-a848df4a6f9147e3b0dd03ddeb8a5c87) by Michael V (https://sketchfab.com/bossdeff) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
