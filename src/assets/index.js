@@ -31,6 +31,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
+import vue from "./tech/Vue.js.png";
 
 // Import common assets
 import logo from "./logo.svg";
@@ -68,5 +69,6 @@ export {
   nasajpl,
   fyiai,
   cs,
+  vue,
   
 };
