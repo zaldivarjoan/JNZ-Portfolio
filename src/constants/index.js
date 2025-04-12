@@ -82,7 +82,7 @@ export const experiences = [
 		company_name: "FYI.AI",
 		icon: fyiai,
 		iconBg: "#95a5a6",
-		date: "Oct 2024 - Present",
+		date: "Oct 2024 - April 2025",
 		points: [
 			"Participated in Agile sprint planning and backlog refinement meetings to synchronize testing strategies with development goals. ",
 			"Executed comprehensive acceptance, regression, and smoke testing to ensure software quality and functionality across updates",
