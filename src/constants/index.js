@@ -25,6 +25,7 @@ import {
 	fyiai,
 	cs,
 	vue,
+	EyeDropper,
 
 } from "../assets";
 
@@ -177,5 +178,18 @@ export const projects = [
 		],
 		image: CompileVortex,
 		source_code_link: "https://github.com/zaldivarjoan/Articles_Website",
+	},
+	{
+		name: "Eye Dropper Tool",
+		description:
+			"Developed a web application that allows users to select colors from any webpage and save them in a database. The application features a user-friendly interface with a color picker, enabling users to easily choose and store their preferred colors for future reference.",
+		tags: [
+			{ name: "Javascript", color: "blue-text-gradient" },
+			{ name: "CSS", color: "green-text-gradient" },
+			{ name: "HTML", color: "pink-text-gradient" },
+			{ name: "Canvas", color: "pink-text-gradient" },
+		],
+		image: EyeDropper,
+		source_code_link: "https://zaldivarjoan.github.io/EyeDropperTool/index.html",
 	},
 ];

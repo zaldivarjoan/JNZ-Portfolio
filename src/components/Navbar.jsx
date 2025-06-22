@@ -9,8 +9,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = 'JNZ-Portfolio/Resume.pdf';
-    window.open(resumeUrl);
+    // const resumeUrl = 'JNZ-Portfolio/Resume.pdf';
+    // window.open(resumeUrl);
   };
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const Navbar = () => {
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
+        {/* <button onClick={toggleResume}>Resume</button> */}
       </li>
     </ul>
   );
