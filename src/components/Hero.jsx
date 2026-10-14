@@ -31,6 +31,9 @@ const Hero = () => {
               }}
             />
           </p>
+          <p className="hidden sm:block mt-6 text-secondary text-[15px]">
+            Click the keys below, or hover the keyboard and start typing.
+          </p>
         </div>
       </div>
 
