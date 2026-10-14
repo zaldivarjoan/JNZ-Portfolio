@@ -17,7 +17,6 @@ import {
 	threejs,
 	mhft,
 	sketcher,
-	mathwork,
 	CompileVortex,
 	eduskill,
 	test,
@@ -37,6 +36,10 @@ export const navLinks = [
 	{
 		id: "work",
 		title: "Work",
+	},
+	{
+		id: "typing",
+		title: "Typing",
 	},
 	{
 		id: "contact",

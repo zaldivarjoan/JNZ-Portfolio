@@ -1,5 +1,4 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
 import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
 import test from "./company/test.png";
@@ -41,7 +40,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
-  mathwork,
   test,
   edunet,
   python,
